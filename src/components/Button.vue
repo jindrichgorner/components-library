@@ -4,9 +4,9 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-
+/* eslint-disable vue/multi-word-component-names */
 export default defineComponent({
-  name: "HelloWorld",
+  name: "Button",
   props: {
     title: String,
   },
